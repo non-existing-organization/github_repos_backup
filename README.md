@@ -9,8 +9,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/simple-me/github_repos_backup">
-    <img src="https://raw.githubusercontent.com/simple-me/github_repos_backup/main/.assets/logo.png" alt="Main Logo" width="80" height="80">
+  <a href="https://github.com/non-existing-organization/github_repos_backup">
+    <img src="https://raw.githubusercontent.com/non-existing-organization/github_repos_backup/main/.assets/logo.png" alt="Main Logo" width="80" height="80">
   </a>
 
   <h3 align="center">github_repos_backup</h3>
@@ -21,11 +21,11 @@
     <a href="./README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/simple-me/github_repos_backup">View Demo</a>
+    <a href="https://github.com/non-existing-organization/github_repos_backup">View Demo</a>
     ·
-    <a href="https://github.com/simple-me/github_repos_backup/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
+    <a href="https://github.com/non-existing-organization/github_repos_backup/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/simple-me/github_repos_backup/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
+    <a href="https://github.com/non-existing-organization/github_repos_backup/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
   </p>
 </p>
 
@@ -66,6 +66,8 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 -->
 
 ### Built With
+
+Go 1.18
 
 <!--
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -142,7 +144,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/simple-me/github_repos_backup/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/non-existing-organization/github_repos_backup/issues) for a list of proposed features (and known issues).
 
 ---
 
@@ -190,16 +192,16 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/simple-me/github_repos_backup.svg?style=for-the-badge
-[contributors-url]: https://github.com/simple-me/github_repos_backup/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/simple-me/github_repos_backup.svg?style=for-the-badge
-[forks-url]: https://github.com/simple-me/github_repos_backup/network/members
-[stars-shield]: https://img.shields.io/github/stars/simple-me/github_repos_backup.svg?style=for-the-badge
-[stars-url]: https://github.com/simple-me/github_repos_backup/stargazers
-[issues-shield]: https://img.shields.io/github/issues/simple-me/github_repos_backup.svg?style=for-the-badge
-[issues-url]: https://github.com/simple-me/github_repos_backup/issues
-[license-shield]: https://img.shields.io/github/license/simple-me/github_repos_backup?style=for-the-badge
-[license-url]: https://github.com/simple-me/github_repos_backup/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/non-existing-organization/github_repos_backup.svg?style=for-the-badge
+[contributors-url]: https://github.com/non-existing-organization/github_repos_backup/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/non-existing-organization/github_repos_backup.svg?style=for-the-badge
+[forks-url]: https://github.com/non-existing-organization/github_repos_backup/network/members
+[stars-shield]: https://img.shields.io/github/stars/non-existing-organization/github_repos_backup.svg?style=for-the-badge
+[stars-url]: https://github.com/non-existing-organization/github_repos_backup/stargazers
+[issues-shield]: https://img.shields.io/github/issues/non-existing-organization/github_repos_backup.svg?style=for-the-badge
+[issues-url]: https://github.com/non-existing-organization/github_repos_backup/issues
+[license-shield]: https://img.shields.io/github/license/non-existing-organization/github_repos_backup?style=for-the-badge
+[license-url]: https://github.com/non-existing-organization/github_repos_backup/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/santiago-delcampo/
 [product-screenshot]: .assets/screenshot.png
