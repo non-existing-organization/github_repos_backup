@@ -144,7 +144,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-* Add concurrency when iterating over the list of repos
 * Add the option to encrypt the zip file when compressed locally
 
 See the [open issues](https://github.com/non-existing-organization/github_repos_backup/issues) for a list of proposed features (and known issues).
