@@ -145,12 +145,10 @@ func main() {
 
 	for i := range repos {
 		if len(filter) == 0 {
-			//clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
 			go clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
 			wg.Add(1)
 		} else {
 			if strings.Contains(repos[i].GetName(), filter) {
-				//clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
 				go clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
 				wg.Add(1)
 			}
