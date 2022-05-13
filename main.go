@@ -8,6 +8,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"sync"
 	"syscall"
 	"time"
 
@@ -27,7 +28,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 )
 
+var wg sync.WaitGroup
+
 func clone(url string, directory string, access_token string) {
+	defer wg.Done()
 	utils.Info("git clone %s %s", url, directory)
 
 	r, err := git.PlainClone(directory, false, &git.CloneOptions{
@@ -141,13 +145,19 @@ func main() {
 
 	for i := range repos {
 		if len(filter) == 0 {
-			clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
+			//clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
+			go clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
+			wg.Add(1)
 		} else {
 			if strings.Contains(repos[i].GetName(), filter) {
-				clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
+				//clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
+				go clone(repos[i].GetCloneURL(), filepath.Join(directory, *repos[i].FullName), token)
+				wg.Add(1)
 			}
 		}
 	}
+
+	wg.Wait()
 
 	fmt.Println("zipping repos at destination path....")
 	if err := utils.ZipSource(directory, outFileName); err != nil {
