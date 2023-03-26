@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/non-existing-organization/github_repos_backup">
-    <img src="https://github.com/not-existing-organization/github_repos_backup/raw/master/.assets/golang-gopher.jpeg" alt="Main Logo" width="80" height="80">
+    <img src="https://github.com/non-existing-organization/github_repos_backup/raw/master/.assets/logo.png" alt="Main Logo" width="80" height="80">
   </a>
 
   <h3 align="center">github_repos_backup</h3>
